@@ -1,4 +1,4 @@
-#basic python file
+
 
 #first step is to change from infix to postfix notation
 #This method will convert an infix to a postfix...Accepts infix
@@ -38,4 +38,5 @@ def infixToPostfix(infixexpr):
 print(infixToPostfix("A * B + C * D"))
 print(infixToPostfix("( A + B ) * C - ( D - E ) * ( F + G )"))
 
+def convertToNFA(postFixExp):
     
