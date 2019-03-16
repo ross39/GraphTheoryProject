@@ -1,8 +1,15 @@
 #create a class to store the state of the NFA
+#Ross Heaney
 
 class State:
-    def __init__(self, name):
-        self.epsilon = [] # epsilon-closure
-        self.transitions = {} # a dictionary of char --> state
-        self.name = name
-        self.is_end = False # is it the ending state?
+	label1 = None
+	edge1 = None 
+	edge2 = None
+
+class Nfa:
+	initial = None
+	accept = None
+
+	def __init__(self, initial, accept):
+		self.initial = initial
+		self.accept = accept
