@@ -1,9 +1,9 @@
 #first step is to change from infix to postfix notation
 #This method will convert an infix to a postfix...Accepts infix
 from pythonds.basic.stack import Stack
-#source- 
 
 def infixToPostfix(infixexpr):
+    """This converts a regxp from infix to postfix notation """
     prec = {}
     prec["*"] = 3
     prec["/"] = 3
