@@ -21,3 +21,6 @@ Stackoverflow
 Google
 
 Dr Ian Mcloughlin's lecture slides and video tutorials(Much of this code was wrote before the videos were posted so although it turned out similar in the end, It wasn't a direct copy from the videos)
+
+### Footnote
+I had an issue with git. Unbeknown to me I had created two git repos by accident and every commit I made meant I added duplicates. As a result I had to delete some files from the master.
